@@ -122,12 +122,18 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.productos2 {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
+  gap: 15px;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -143,10 +149,6 @@ footer {
   border: 1px solid #db4cdb;
 }
 
-.buzo {
-  height: 200px;
-}
-
 .rockstar {
   color: white;
   font-family: "Oswald", sans-serif;
@@ -156,7 +158,7 @@ footer {
 }
 
 .preciorockstar {
-  color: #db4cdb;
+  color: #f83df8;
   margin-left: 123px;
   margin-top: 50px;
   position: absolute;
@@ -166,65 +168,52 @@ footer {
 .masterpiece {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: 69px;
+  margin-left: 60px;
   margin-top: 19px;
   position: absolute;
 }
 
 .preciomasterpiece {
-  color: #db4cdb;
+  color: #f83df8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 130px;
   margin-top: 49px;
   position: absolute;
 }
 
-.pantalon1 {
-  position: absolute;
-  width: 300px;
-  height: 290px;
-  margin-top: 90px;
-  margin-left: 990px;
-  border-radius: 5px;
-}
-
 .active1 {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: 420px;
-  margin-top: 463px;
+  margin-left: 340px;
+  margin-top: 423px;
   position: absolute;
 }
 
 .precioactive {
-  color: #db4cdb;
+  color: #f83df8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 420px;
-  margin-top: 519px;
+  margin-left: 340px;
+  margin-top: 479px;
   position: absolute;
 }
 
 .zapatillas1 {
-  position: absolute;
-  width: 300px;
-  height: 290px;
-  margin-top: 90px;
-  margin-left: 0px;
-  border-radius: 5px;
+  margin-left: 60px;
+  position: relative;
 }
 
 .denver {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: 120px;
+  margin-left: 150px;
   margin-top: 12px;
   position: absolute;
 }
 
 .preciodenver {
-  color: #db4cdb;
+  color: #f83df8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 150px;
+  margin-left: 180px;
   margin-top: 36px;
   position: absolute;
 }
@@ -237,25 +226,17 @@ footer {
 .buzo2 {
   position: absolute;
   width: 300px;
-  margin-left: -1738px;
+  margin-left: -1697px;
   margin-top: 310px;
   border-radius: 5px;
 }
-
-.kieeh {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: -1630px;
-  margin-top: 672px;
+.buzo2 .remera2 {
   position: absolute;
-}
-
-.preciokieeh {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -1589px;
-  margin-top: 700px;
-  position: absolute;
+  width: 300px;
+  margin-left: -1310px;
+  margin-top: 300px;
+  border-radius: 5px;
+  height: 310px;
 }
 
 .remera2 {
@@ -270,23 +251,23 @@ footer {
 .freres {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: -1200px;
-  margin-top: 670px;
+  margin-left: -1210px;
+  margin-top: 635px;
   position: absolute;
 }
 
 .preciofreres {
-  color: #db4cdb;
+  color: #f83df8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -1173px;
-  margin-top: 695px;
+  margin-left: -1183px;
+  margin-top: 665px;
   position: absolute;
 }
 
 .pantalon2 {
   position: absolute;
   width: 300px;
-  margin-left: -825px;
+  margin-left: -835px;
   margin-top: 295px;
   border-radius: 5px;
   height: 310px;
@@ -295,24 +276,24 @@ footer {
 .vintage {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: -720px;
-  margin-top: 670px;
+  margin-left: -740px;
+  margin-top: 630px;
   position: absolute;
 }
 
 .preciovintage {
-  color: #db4cdb;
+  color: rgb(247, 64, 247);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -685px;
-  margin-top: 697px;
+  margin-left: -710px;
+  margin-top: 657px;
   position: absolute;
 }
 
 .zapatillas2 {
   position: absolute;
   width: 300px;
-  margin-left: -420px;
-  margin-top: 295px;
+  margin-left: -387px;
+  margin-top: 285px;
   border-radius: 5px;
   height: 310px;
 }
@@ -320,16 +301,32 @@ footer {
 .peggy {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-left: -300px;
-  margin-top: 670px;
+  margin-left: -295px;
+  margin-top: 620px;
   position: absolute;
 }
 
 .preciopeggy {
-  color: #db4cdb;
+  color: rgb(248, 61, 248);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -280px;
-  margin-top: 697px;
+  margin-left: -260px;
+  margin-top: 647px;
+  position: absolute;
+}
+
+.kieeh {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-left: -1610px;
+  margin-top: 637px;
+  position: absolute;
+}
+
+.preciokieeh {
+  color: #f83df8;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: -1573px;
+  margin-top: 665px;
   position: absolute;
 }
 
