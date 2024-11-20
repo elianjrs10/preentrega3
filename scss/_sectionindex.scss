@@ -1,0 +1,55 @@
+.sectionindex {
+    .conjunto {
+        color: $blanco;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 150px;
+        padding-top: 70px;
+        text-decoration: underline;
+        font-family: $fuente;
+    }
+
+    .fotoconjunto {
+        border-radius: 15px;
+        margin-left: 150px;
+        &:hover{
+            border: solid $principal 2px;
+        }
+    }
+
+    .dark {
+        color: $blanco;
+        position: absolute;
+        top: 140%;
+        left: 15%;
+        font-family: $fuente;
+    }
+
+    .precioconjunto {
+        color: $principal;
+        margin-left: 310px;
+        padding: 15px;
+    }
+
+    .fotoconjunto2 {
+        margin-left: 560px;
+        border-radius: 15px;
+        &:hover{
+            border: solid $principal 2px;
+        }
+    }
+
+    .light {
+        color: $blanco;
+        position: absolute;
+        top: 140%;
+        left: 70%;
+        font-family: $fuente;
+    }
+
+    .precioconjunto2 {
+        color: $principal;
+        margin-left: 1380px;
+        margin-top: -50px;
+    }
+}

@@ -1,0 +1,15 @@
+$negro: black;
+$blanco: white;
+$principal: #a558ec;
+$fuente: "Montserrat", sans-serif;
+$footer: #706a6a;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $negro;
+}
+

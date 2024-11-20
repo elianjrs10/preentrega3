@@ -1,0 +1,27 @@
+.mainindex {
+    div {
+        padding-top: 20px;
+        .portada {
+            margin-top: 50px;
+            
+        }
+    }
+
+    div {
+        .columnas {
+
+            color: $blanco;
+            font-size: 25px;
+            padding: 60px;
+            font-weight: bold;
+            flex-direction: column;
+            font-family: $fuente;
+        }
+
+        .parrafoinicio {
+            color: $principal;
+            padding: 5px;
+            font-family: $fuente;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+header {
+    .logo {
+        position: absolute;
+    }
+    .carrito{
+        position: absolute;
+        margin-left: 1730px;
+        margin-top: 40px;
+        width: 80px;
+    }
+     nav {
+        position: sticky;
+        top: 0;
+
+        li {
+            display: inline-block;
+            font-size: 25px;
+            font-family: $fuente;
+            font-weight: bold;
+            margin-left: 190px;
+            margin-top: 50px;
+            position: sticky;
+            top: 0;
+        }
+
+         .seccion {
+            text-decoration: none;
+            color: $blanco;
+            &:hover{
+                color: $principal; 
+            } 
+         } 
+     }
+}

@@ -1,9 +1,5 @@
-$negro: black;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: $negro;
-}
+@import "reset";
+@import "header";
+@import "mainindex";
+@import "sectionindex";
+@import "footer";
