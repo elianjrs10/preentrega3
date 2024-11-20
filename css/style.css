@@ -337,4 +337,156 @@ footer {
   margin-top: 500px;
 }
 
+.titulonosotros {
+  color: #af22af;
+  text-align: center;
+  margin-top: -670px;
+  font-size: 50px;
+  font-style: italic;
+  display: fixed;
+}
+
+.videokibua {
+  width: 310px;
+  margin-left: 400px;
+  margin-top: 220px;
+  display: block;
+}
+
+.parrafonosotros {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 900px;
+  margin-top: -20px;
+  margin-right: 400px;
+  padding: 50px;
+}
+
+.barra-contraste {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.barra-contraste h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.barra-contraste p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.barra-contraste input[type=email] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.barra-contraste button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.barra-contraste button:hover {
+  background-color: #ccc;
+}
+
+.formulario {
+  width: 700px;
+  margin-left: 1000px;
+  border: 3px #ffbeff solid;
+  color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #333;
+  position: relative;
+}
+
+.comunicate {
+  color: #a558ec;
+  margin-top: 115px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  position: relative;
+}
+
+.form-control:hover,
+.form-control:focus {
+  border: solid 1px #a558ec;
+}
+
+.instagram2 {
+  margin-top: -450px;
+  margin-left: 280px;
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+  position: fixed;
+}
+
+.facebook2 {
+  margin-top: 20px;
+  margin-left: 280px;
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+  position: fixed;
+}
+
+.seguipedido {
+  color: white;
+  padding: 10px;
+  margin-left: 1100px;
+  margin-top: 220px;
+  font-family: "Afacad Flux", sans-serif;
+  text-decoration: underline;
+}
+
+.textopedido {
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin-left: 750px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 35px;
+  margin-right: 200px;
+}
+
+.fotopedido {
+  width: 500px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -160px;
+}
+
+.enlacepedido {
+  text-decoration: none;
+  color: #a558ec;
+}
+
+.footerpedido {
+  margin-top: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

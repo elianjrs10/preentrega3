@@ -1,0 +1,40 @@
+.barra-contraste {
+    background-color: #333;
+    color: $blanco;
+    padding: 20px;
+    text-align: center;
+}
+
+.barra-contraste h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.barra-contraste p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.barra-contraste input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.barra-contraste button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: $blanco;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.barra-contraste button:hover {
+    background-color: #ccc;
+}

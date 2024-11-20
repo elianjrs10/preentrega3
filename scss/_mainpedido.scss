@@ -1,0 +1,32 @@
+.seguipedido{
+    color: $blanco;
+    padding: 10px;
+    margin-left: 1100px;
+    margin-top: 220px;
+    font-family: "Afacad Flux", sans-serif;
+    text-decoration: underline;
+  
+  }
+  .textopedido{
+    color: $blanco;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 750px;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 35px;
+    margin-right: 200px;
+  
+  }
+  .fotopedido{
+    width: 500px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top:-160px;
+  }
+  .enlacepedido{
+    text-decoration: none;
+    color: $principal
+  }
+  .footerpedido{
+    margin-top: 100px;
+  }
