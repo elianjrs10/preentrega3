@@ -30,3 +30,22 @@
   .footerpedido{
     margin-top: 100px;
   }
+  .barra-contraste {
+    background-color:#333;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .barra-contraste h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #fff;
+  
+  }
+  
+  .barra-contraste iframe {
+    width: 100%; 
+    max-width: 600px; 
+    height: 450px;
+  }
