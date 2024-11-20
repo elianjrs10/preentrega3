@@ -1,5 +1,5 @@
 .titulonosotros {
-    color: #af22af;
+    color: $principal;
     text-align: center;
     margin-top: -670px;
     font-size: 50px;
@@ -15,7 +15,7 @@
 }
 
 .parrafonosotros {
-    color: white;
+    color: $blanco;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: justify;
