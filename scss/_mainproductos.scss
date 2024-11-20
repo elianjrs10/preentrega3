@@ -1,0 +1,214 @@
+.container {
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.card {
+    margin-top: 70px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    background-color: $rosa;
+    border: 1px solid $rosa;
+}
+
+.buzo {
+    height: 200px;
+}
+
+.rockstar {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.preciorockstar {
+    color: $rosa;
+    margin-left: 123px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.masterpiece {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: 69px;
+    margin-top: 19px;
+    position: absolute;
+}
+
+.preciomasterpiece {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 130px;
+    margin-top: 49px;
+    position: absolute;
+}
+
+.pantalon1 {
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    margin-top: 90px;
+    margin-left: 990px;
+    border-radius: 5px;
+}
+
+.active1 {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: 420px;
+    margin-top: 463px;
+    position: absolute;
+}
+
+.precioactive {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 420px;
+    margin-top: 519px;
+    position: absolute;
+}
+
+.zapatillas1 {
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    margin-top: 90px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.denver {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: 120px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.preciodenver {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 150px;
+    margin-top: 36px;
+    position: absolute;
+}
+
+.card:hover {
+    opacity: 1;
+    border: 2px gray solid;
+}
+
+.buzo2 {
+    position: absolute;
+    width: 300px;
+    margin-left: -1738px;
+    margin-top: 310px;
+    border-radius: 5px;
+}
+
+.kieeh {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: -1630px;
+    margin-top: 672px;
+    position: absolute;
+}
+
+.preciokieeh {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1589px;
+    margin-top: 700px;
+    position: absolute;
+}
+
+.remera2 {
+    position: absolute;
+    width: 300px;
+    margin-left: -1310px;
+    margin-top: 300px;
+    border-radius: 5px;
+    height: 310px;
+}
+
+.freres {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: -1200px;
+    margin-top: 670px;
+    position: absolute;
+}
+
+.preciofreres {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1173px;
+    margin-top: 695px;
+    position: absolute;
+}
+
+.pantalon2 {
+    position: absolute;
+    width: 300px;
+    margin-left: -825px;
+    margin-top: 295px;
+    border-radius: 5px;
+    height: 310px;
+}
+
+.vintage {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: -720px;
+    margin-top: 670px;
+    position: absolute;
+}
+
+.preciovintage {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -685px;
+    margin-top: 697px;
+    position: absolute;
+}
+
+.zapatillas2 {
+    position: absolute;
+    width: 300px;
+    margin-left: -420px;
+    margin-top: 295px;
+    border-radius: 5px;
+    height: 310px;
+}
+
+.peggy {
+    color: $blanco;
+    font-family: "Oswald", sans-serif;
+    margin-left: -300px;
+    margin-top: 670px;
+    position: absolute;
+}
+
+.preciopeggy {
+    color: $rosa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -280px;
+    margin-top: 697px;
+    position: absolute;
+}
+
+.footerproducto {
+    margin-top: 500px;
+}
