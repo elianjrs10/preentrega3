@@ -659,12 +659,14 @@ header nav .seccion:hover {
   .seguipedido {
     margin-left: 340px;
     margin-top: 40px;
+    font-size: 20px;
+    align-items: center;
   }
 
   .textopedido {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -674,6 +676,8 @@ header nav .seccion:hover {
     margin-top: 20px;
     position: relative;
     padding: 20px;
+    align-items: center;
+  
   }
 
 
