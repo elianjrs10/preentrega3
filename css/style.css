@@ -12,16 +12,19 @@ body {
 header .logo {
   position: absolute;
 }
+
 header .carrito {
   position: absolute;
   margin-left: 1730px;
   margin-top: 40px;
   width: 80px;
 }
+
 header nav {
   position: sticky;
   top: 0;
 }
+
 header nav li {
   display: inline-block;
   font-size: 25px;
@@ -32,10 +35,12 @@ header nav li {
   position: sticky;
   top: 0;
 }
+
 header nav .seccion {
   text-decoration: none;
   color: white;
 }
+
 header nav .seccion:hover {
   color: #a558ec;
 }
@@ -43,9 +48,11 @@ header nav .seccion:hover {
 .mainindex div {
   padding-top: 20px;
 }
+
 .mainindex div .portada {
   margin-top: 50px;
 }
+
 .mainindex div .columnas {
   color: white;
   font-size: 25px;
@@ -54,6 +61,7 @@ header nav .seccion:hover {
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
 }
+
 .mainindex div .parrafoinicio {
   color: #a558ec;
   padding: 5px;
@@ -69,30 +77,37 @@ header nav .seccion:hover {
   text-decoration: underline;
   font-family: "Montserrat", sans-serif;
 }
+
 .sectionindex .cambio {
   color: #a558ec;
   animation-name: aparece;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
+
 @keyframes aparece {
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .sectionindex .fotoconjunto {
   border-radius: 15px;
   margin-left: 150px;
 }
+
 .sectionindex .fotoconjunto:hover {
   border: solid #a558ec 2px;
 }
+
 .sectionindex .dark {
   color: white;
   position: absolute;
@@ -100,18 +115,22 @@ header nav .seccion:hover {
   left: 15%;
   font-family: "Montserrat", sans-serif;
 }
+
 .sectionindex .precioconjunto {
   color: #a558ec;
   margin-left: 310px;
   padding: 15px;
 }
+
 .sectionindex .fotoconjunto2 {
   margin-left: 560px;
   border-radius: 15px;
 }
+
 .sectionindex .fotoconjunto2:hover {
   border: solid #a558ec 2px;
 }
+
 .sectionindex .light {
   color: white;
   position: absolute;
@@ -119,6 +138,7 @@ header nav .seccion:hover {
   left: 70%;
   font-family: "Montserrat", sans-serif;
 }
+
 .sectionindex .precioconjunto2 {
   color: #a558ec;
   margin-left: 1380px;
@@ -138,224 +158,110 @@ footer {
 .productos2 {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.productos2 {
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+header .logo {
+  position: absolute;
 }
+
+header .carrito {
+  position: absolute;
+  margin-left: 1730px;
+  margin-top: 40px;
+  width: 80px;
+}
+
+header nav {
+  position: sticky;
+  top: 0;
+}
+
+header nav li {
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: 190px;
+  margin-top: 50px;
+  position: sticky;
+  top: 0;
+}
+
+header nav .seccion {
+  text-decoration: none;
+  color: white;
+}
+
+header nav .seccion:hover {
+  color: #a558ec;
+}
+
 
 .container {
-  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  grid-template-rows: auto auto;
+  margin-top: 120px;
+}
+
+
+.product {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #db4cdb;
 }
 
 .card {
-  margin-top: 70px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
-  padding: 20px;
-  width: 300px;
-  height: 300px;
-  box-shadow: 0 4px 8px;
-  text-align: center;
   background-color: #db4cdb;
-  border: 1px solid #db4cdb;
-}
-
-.rockstar {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: 80px;
-  margin-top: 20px;
-  position: absolute;
-}
-
-.grad1:hover {
-  transform: scale(1.1, 1.1);
-  transition: all 1s;
-}
-
-.preciorockstar {
-  color: #db4cdb;
-  margin-left: 123px;
-  margin-top: 50px;
-  position: absolute;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.masterpiece {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: 60px;
-  margin-top: 19px;
-  position: absolute;
-}
-
-.preciomasterpiece {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 130px;
-  margin-top: 49px;
-  position: absolute;
-}
-
-.active1 {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: 340px;
-  margin-top: 423px;
-  position: absolute;
-}
-
-.precioactive {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 340px;
-  margin-top: 479px;
-  position: absolute;
-}
-
-.zapatillas1 {
-  margin-left: 60px;
-  position: relative;
-}
-
-.denver {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: 150px;
-  margin-top: 12px;
-  position: absolute;
-}
-
-.preciodenver {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 180px;
-  margin-top: 36px;
-  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-  opacity: 1;
-  border: 2px gray solid;
+  transform: scale(1.05);
 }
 
-.buzo2 {
-  position: absolute;
-  width: 300px;
-  margin-left: -1697px;
-  margin-top: 310px;
-  border-radius: 5px;
-}
-.buzo2 .remera2 {
-  position: absolute;
-  width: 300px;
-  margin-left: -1310px;
-  margin-top: 300px;
-  border-radius: 5px;
-  height: 310px;
+.product-name {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-.remera2 {
-  position: absolute;
-  width: 300px;
-  margin-left: -1310px;
-  margin-top: 300px;
-  border-radius: 5px;
-  height: 310px;
-}
-
-.freres {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: -1210px;
-  margin-top: 635px;
-  position: absolute;
-}
-
-.preciofreres {
+.product-price {
+  margin-top: 10px;
+  font-size: 1rem;
   color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -1183px;
-  margin-top: 665px;
-  position: absolute;
+  text-align: center;
 }
 
-.pantalon2 {
-  position: absolute;
-  width: 300px;
-  margin-left: -835px;
-  margin-top: 295px;
-  border-radius: 5px;
-  height: 310px;
-}
-
-.vintage {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: -740px;
-  margin-top: 630px;
-  position: absolute;
-}
-
-.preciovintage {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -710px;
-  margin-top: 657px;
-  position: absolute;
-}
-
-.zapatillas2 {
-  position: absolute;
-  width: 300px;
-  margin-left: -387px;
-  margin-top: 285px;
-  border-radius: 5px;
-  height: 310px;
-}
-
-.peggy {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: -295px;
-  margin-top: 620px;
-  position: absolute;
-}
-
-.preciopeggy {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -260px;
-  margin-top: 647px;
-  position: absolute;
-}
-
-.kieeh {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  margin-left: -1610px;
-  margin-top: 637px;
-  position: absolute;
-}
-
-.preciokieeh {
-  color: #db4cdb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: -1573px;
-  margin-top: 665px;
-  position: absolute;
-}
 
 .footerproducto {
-  margin-top: 500px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
 }
+
+.footerproducto .tarjetas {
+  width: 150px;
+  margin-top: 10px;
+}
+
 
 .titulonosotros {
   color: #a558ec;
@@ -528,3 +434,250 @@ footer {
   height: 450px;
 }
 
+@media (max-width: 1024px) {
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+
+  header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header .logo {
+    width: 150px;
+    margin: 0 auto;
+    margin-left: -50px;
+    position: sticky;
+  }
+
+  header .carrito {
+    width: 60px;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 800px;
+    margin-right: 20px;
+  }
+
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  header nav li {
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  header nav .seccion {
+    text-decoration: none;
+    color: white;
+  }
+
+  header nav .seccion:hover {
+    color: #a558ec;
+  }
+
+
+  .mainindex {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .portada {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  .columnas {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .parrafoinicio {
+    color: #a558ec;
+    font-size: 16px;
+  }
+
+
+  .sectionindex {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sectionindex .conjunto {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+  }
+
+  .sectionindex .fotoconjunto,
+  .sectionindex .fotoconjunto2 {
+    width: 48%;
+    margin: 20px 1%;
+    border-radius: 15px;
+  }
+
+  .sectionindex .fotoconjunto:hover,
+  .sectionindex .fotoconjunto2:hover {
+    border: 2px solid #a558ec;
+  }
+
+  .sectionindex .precioconjunto,
+  .sectionindex .precioconjunto2 {
+    font-size: 20px;
+    color: #a558ec;
+    margin-top: 10px;
+  }
+  
+
+  .dark {
+    margin-left: 50px;
+    margin-top: 190px;
+  }
+
+  .light {
+    margin-left: -110px;
+    margin-top: 190px;
+  }
+
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+  }
+
+  footer .textofooter {
+    font-size: 16px;
+    color: #706a6a;
+  }
+
+  footer .tarjetas {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .titulonosotros {
+    font-size: 40px;
+    margin-top: 20px;
+
+  }
+
+  .videokibua {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .parrafonosotros {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: justify;
+  }
+
+  .barra-contraste input[type=email] {
+    width: 250px;
+  }
+
+  .barra-contraste button {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+
+  .carrito {
+    width: 35px;
+  }
+
+  .formulario {
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 15px;
+  }
+
+  .comunicate {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .instagram2,
+  .facebook2 {
+    position: static;
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .seguipedido {
+    margin-left: 340px;
+    margin-top: 40px;
+  }
+
+  .textopedido {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .fotopedido {
+    width: 50%;
+    margin-left: 220px;
+    margin-top: 20px;
+    position: relative;
+    padding: 20px;
+  }
+
+
+
+
+
+}
