@@ -2,13 +2,15 @@ header {
     .logo {
         position: absolute;
     }
-    .carrito{
+
+    .carrito {
         position: absolute;
         margin-left: 1730px;
         margin-top: 40px;
         width: 80px;
     }
-     nav {
+
+    nav {
         position: sticky;
         top: 0;
 
@@ -23,12 +25,13 @@ header {
             top: 0;
         }
 
-         .seccion {
+        .seccion {
             text-decoration: none;
             color: $blanco;
-            &:hover{
-                color: $principal; 
-            } 
-         } 
-     }
+
+            &:hover {
+                color: $principal;
+            }
+        }
+    }
 }

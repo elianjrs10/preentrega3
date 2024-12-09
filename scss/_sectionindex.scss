@@ -8,20 +8,24 @@
         text-decoration: underline;
         font-family: $fuente;
     }
-    .cambio{
+
+    .cambio {
         color: $principal;
         animation-name: aparece;
         animation-duration: 2.5s;
         animation-iteration-count: infinite;
     }
-    @keyframes aparece{
-        0%{
+
+    @keyframes aparece {
+        0% {
             opacity: 0;
         }
-        50%{
+
+        50% {
             opacity: 1;
         }
-        100%{
+
+        100% {
             opacity: 0;
         }
     }
@@ -29,10 +33,11 @@
     .fotoconjunto {
         border-radius: 15px;
         margin-left: 150px;
-        &:hover{
+
+        &:hover {
             border: solid $principal 2px;
         }
-        
+
     }
 
 
@@ -53,7 +58,8 @@
     .fotoconjunto2 {
         margin-left: 560px;
         border-radius: 15px;
-        &:hover{
+
+        &:hover {
             border: solid $principal 2px;
         }
     }

@@ -33,9 +33,10 @@
     margin-left: 80px;
     margin-top: 20px;
     position: absolute;
-} 
-.grad1:hover{
-    transform: scale(1.1,1.1);
+}
+
+.grad1:hover {
+    transform: scale(1.1, 1.1);
     transition: all 1s;
 }
 
@@ -191,7 +192,7 @@
 }
 
 .preciopeggy {
-    color:$rosa;
+    color: $rosa;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: -260px;
     margin-top: 647px;
@@ -199,7 +200,7 @@
 }
 
 .kieeh {
-    color:$blanco;
+    color: $blanco;
     font-family: "Oswald", sans-serif;
     margin-left: -1610px;
     margin-top: 637px;

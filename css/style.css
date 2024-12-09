@@ -681,6 +681,12 @@ header nav .seccion:hover {
 
   }
 
+  .precios {
+    position: absolute;
+    top: 224%;
+    left: -8%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -806,18 +812,24 @@ header nav .seccion:hover {
     margin-top: 10px;
   }
 
-
-
   .dark,
   .light {
     margin: 10px auto;
   }
-  .dark{
-    margin-top: 30px;
+
+  .dark {
+    margin-top: 150px;
   }
-  .light{
+
+  .light {
     margin-left: -100px;
-     margin-top: 30px;
+    margin-top: 150px;
+  }
+
+  .precios {
+    position: absolute;
+    top: 201%;
+    left: -27%;
   }
 
   footer {
@@ -898,6 +910,7 @@ header nav .seccion:hover {
   .fotopedido {
     width: 50%;
     padding: 10px;
-    margin-left:160px;
+    margin-left: 160px;
   }
+
 }
