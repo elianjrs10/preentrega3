@@ -448,7 +448,7 @@ header nav .seccion:hover {
     display: block;
     margin: 0 auto;
   }
-}
+
 
 
 .titulonosotros {
@@ -516,7 +516,6 @@ nav ul li a {
   font-size: 16px;
 }
 
-
 .formulario {
   width: 90%;
   margin: 20px auto;
@@ -549,23 +548,6 @@ nav ul li a {
 .form-control:focus {
   border-color: #a558ec;
 }
-
-
-.instagram2,
-.facebook2 {
-  width: 90%;
-  margin: 20px auto;
-  border-radius: 12px;
-  position: relative;
-}
-
-.instagram2 img,
-.facebook2 img {
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-}
-
 
 .barra-contraste iframe {
   width: 100%;
@@ -605,7 +587,7 @@ footer {
 
 .container {
   grid-template-columns: 1fr;
-  padding: 150px;
+  padding:40px;
   margin: 0 auto;
 }
 
@@ -633,28 +615,25 @@ footer {
 .footerproducto .tarjetas {
   width: 120px;
 }
+  .formulario {
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+  }
 
-.formulario {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
+  .comunicate {
+    margin-top: 50px;
+  }
 
-.comunicate {
-  margin-top: 50px;
-}
+  .instagram2, .facebook2 {
+    width: 90%;
+    margin-left: 5%; 
+    position: static; 
+    margin-top: 20px; 
+    height: auto;
+  }
 
-.instagram2,
-.facebook2 {
-  width: 30%;
-  margin-left: 35%;
-  position: static;
-  margin-top: 20px;
-  height: auto;
-  text-align: center;
-  justify-content: center;
-}
 
 .barra-contraste {
   background-color: #333;
