@@ -585,36 +585,39 @@ footer {
 }
 
 
-.container {
-  grid-template-columns: 1fr;
-  padding:40px;
-  margin: 0 auto;
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; 
+    margin-top: 60px; 
+    padding: 10px;
+  }
+
+  .product {
+    padding: 15px; 
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .product-name {
+    font-size: 1rem; 
+  }
+
+  .product-price {
+    font-size: 0.9rem; 
+  }
+
+  .footerproducto {
+    margin-top: 30px; 
+    padding: 15px; 
+  }
+
+  .footerproducto .tarjetas {
+    width: 120px; 
+  }
 }
 
-.product {
-  padding: 15px;
-}
-
-.card {
-  width: 80%;
-}
-
-.product-name {
-  font-size: 1rem;
-}
-
-.product-price {
-  font-size: 0.9rem;
-}
-
-.footerproducto {
-  margin-top: 30px;
-  padding: 15px;
-}
-
-.footerproducto .tarjetas {
-  width: 120px;
-}
   .formulario {
     width: 90%; 
     margin-left: auto; 
