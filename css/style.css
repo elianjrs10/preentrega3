@@ -329,57 +329,6 @@ header nav .seccion:hover {
   background-color: #ccc;
 }
 
-.formulario {
-  width: 700px;
-  margin-left: 1000px;
-  border: 3px #ffbeff solid;
-  color: white;
-  margin-top: 100px;
-  border-radius: 10px;
-  padding: 20px;
-  background-color: #333;
-  position: relative;
-}
-
-.comunicate {
-  color: #a558ec;
-  margin-top: 115px;
-}
-
-.form-control {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: black;
-  position: relative;
-}
-
-.form-control:hover,
-.form-control:focus {
-  border: solid 1px #a558ec;
-}
-
-.instagram2 {
-  margin-top: -450px;
-  margin-left: 280px;
-  width: 400px;
-  height: 200px;
-  border-radius: 12px;
-  position: fixed;
-}
-
-.facebook2 {
-  margin-top: 20px;
-  margin-left: 280px;
-  width: 400px;
-  height: 200px;
-  border-radius: 12px;
-  position: fixed;
-}
-
 .seguipedido {
   color: white;
   padding: 10px;
@@ -436,245 +385,322 @@ header nav .seccion:hover {
 
 @media screen and (max-width: 768px) {
   header .logo {
-    width: 100px;
-    position: relative;
-    margin: 10px auto;
+    position: static;
     display: block;
+    margin: 0 auto;
+    width: 100px;
   }
 
   header .carrito {
-    position: relative;
-    margin: 10px auto;
+    position: static;
     display: block;
+    margin: 10px auto;
     width: 50px;
   }
 
   header nav ul {
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 
   header nav li {
     display: block;
     margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
   }
 
   .mainindex div .columnas {
-    font-size: 18px;
     padding: 20px;
+    font-size: 18px;
   }
 
   .sectionindex .conjunto {
+    padding: 50px 10px;
     font-size: 20px;
-    padding: 20px 0;
   }
 
   .sectionindex .fotoconjunto,
   .sectionindex .fotoconjunto2 {
-    width: 40%;
-    margin: 20px auto;
-  }
-
-  .sectionindex .dark,
-  .sectionindex .light {
-    position: relative;
-    font-size: 16px;
-  }
-
-  .sectionindex .precioconjunto,
-  .sectionindex .precioconjunto2 {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-
-  footer .textofooter {
-    font-size: 16px;
-  }
-
-
-  .titulonosotros {
-    font-size: 30px;
-    margin-top: 0;
-  }
-
- 
-  .videokibua {
-    width: 50%;
+    width: 90%;
+    max-width: 400px;
     margin: 20px auto;
     display: block;
   }
 
-  .parrafonosotros {
+  .sectionindex .dark,
+  .sectionindex .light,
+  .sectionindex .precioconjunto,
+  .sectionindex .precioconjunto2 {
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .textofooter {
     font-size: 16px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 20px;
   }
 
-  .barra-contraste {
-    padding: 15px;
-    
+  .tarjetas {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
   }
-
-  .barra-contraste h2 {
-    font-size: 20px;
-  }
-
-  .barra-contraste p {
-    font-size: 14px;
-  }
-
-    .header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-    }
-  
-    .logo {
-      width: 120px;
-      margin-bottom: 10px;
-    }
-  
-    .carrito {
-      width: 40px;
-    }
-  
-    nav ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-      width: 100%;
-      list-style: none;
-    }
-  
-    nav ul li {
-      margin: 8px 0;
-    }
-  
-    nav ul li a {
-      font-size: 16px;
-    }
-  
-    /* Ajustes de la sección de formulario */
-    .formulario {
-      width: 90%;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #333;
-      color: white;
-      border: 3px solid #ffbeff;
-      border-radius: 10px;
-    }
-  
-    .comunicate {
-      font-size: 24px;
-      text-align: center;
-      margin-top: 30px;
-      color: #a558ec;
-    }
-  
-    .form-control {
-      width: 100%;
-      padding: 12px;
-      font-size: 16px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      color: black;
-    }
-  
-    .form-control:hover,
-    .form-control:focus {
-      border-color: #a558ec;
-    }
-  
-    /* Ajustes para Instagram y Facebook */
-    .instagram2, .facebook2 {
-      width: 90%;
-      margin: 20px auto;
-      border-radius: 12px;
-      position: relative;
-    }
-  
-    .instagram2 img, .facebook2 img {
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-    }
-  
-    /* Ajuste de la barra de ubicación */
-    .barra-contraste iframe {
-      width: 100%;
-      height: 250px;
-      border-radius: 10px;
-    }
-  
-    /* Ajustes del footer */
-    footer {
-      text-align: center;
-      padding: 20px;
-    }
-  
-    .textofooter {
-      font-size: 14px;
-      color: #777;
-    }
-  
-    .tarjetas {
-      width: 80%;
-      margin-top: 10px;
-    }
-    
-    /* Ajuste general de la sección de enlaces */
-    .seccion {
-      font-size: 16px;
-      padding: 10px;
-      text-align: center;
-    }
-    @media screen and (max-width: 768px) {
-      .seguipedido {
-          font-size: 24px; /* Reduce el tamaño de la fuente */
-          margin-left: 0; /* Alinea el texto de forma centrada */
-          margin-top: 50px; /* Ajuste en la posición */
-          text-align: center; /* Centra el título */
-      }
-  
-      .textopedido {
-          font-size: 18px; /* Reduce el tamaño de la fuente */
-          margin-left: 20px; /* Ajusta el margen */
-          margin-right: 20px; /* Ajusta el margen */
-          padding: 10px;
-          text-align: justify;
-      }
-  
-      .fotopedido {
-          width: 50%; /* Hace que la imagen ocupe todo el ancho */
-          margin-left: 160px; /* Elimina el margen */
-          margin-top: 20px; /* Ajuste en la posición */
-          position: relative;
-          margin: 20 auto;
-          
-      }
-  
-      .enlacepedido {
-          font-size: 18px; /* Ajusta el tamaño del enlace */
-      }
-  
-      .footerpedido {
-          margin-top: 20px; /* Ajuste en la posición del pie de página */
-          text-align: center; /* Centra el texto */
-      }
-  
-      .tarjetas {
-          width: 80%; /* Ajusta el tamaño de la imagen de las tarjetas */
-          margin: 0 auto; /* Centra la imagen */
-          display: block;
-      }
-  }
-  
 }
-  
-  
+
+
+.titulonosotros {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+
+.videokibua {
+  width: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+.parrafonosotros {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.barra-contraste {
+  padding: 15px;
+
+}
+
+.barra-contraste h2 {
+  font-size: 20px;
+}
+
+.barra-contraste p {
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.carrito {
+  width: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 8px 0;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
+
+.formulario {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  border: 3px solid #ffbeff;
+  border-radius: 10px;
+}
+
+.comunicate {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  color: #a558ec;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+.form-control:hover,
+.form-control:focus {
+  border-color: #a558ec;
+}
+
+
+.instagram2,
+.facebook2 {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 12px;
+  position: relative;
+}
+
+.instagram2 img,
+.facebook2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+
+.barra-contraste iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.textofooter {
+  font-size: 14px;
+  color: #777;
+}
+
+.tarjetas {
+  width: 80%;
+  margin-top: 10px;
+}
+
+
+.seccion {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjetas {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.container {
+  grid-template-columns: 1fr;
+  padding: 150px;
+  margin: 0 auto;
+}
+
+.product {
+  padding: 15px;
+}
+
+.card {
+  width: 80%;
+}
+
+.product-name {
+  font-size: 1rem;
+}
+
+.product-price {
+  font-size: 0.9rem;
+}
+
+.footerproducto {
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.footerproducto .tarjetas {
+  width: 120px;
+}
+
+.formulario {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.comunicate {
+  margin-top: 50px;
+}
+
+.instagram2,
+.facebook2 {
+  width: 30%;
+  margin-left: 35%;
+  position: static;
+  margin-top: 20px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.barra-contraste {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.barra-contraste h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.barra-contraste iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+}
+
+.seguipedido {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.textopedido {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.fotopedido {
+  width: 90%;
+  max-width: 400px;
+  position: static;
+  display: block;
+  margin: 20px auto;
+}
+
+.footerpedido {
+  margin-top: 20px;
+}
+
+}
